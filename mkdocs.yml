@@ -13,3 +13,21 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
+nav:
+  - Home: index.md
+  - CLI Libraries:
+      - Azure CLI: azcli.md
+      - OpenSSL: openssl.md
+  - Version Control:
+      - Git: git.md
+  - Terraform:
+      - Import: terraform/import.md
+      - Init: terraform/init.md
+      - Plan/Apply: terraform/planapply.md
+      - Tfstate: terraform/tfstate.md
+      - Console: terraform/console.md
+      - MV: terraform/mv.md
+  - Kubernetes:
+      - AKS: kubernetes/aks.md
+      - Exec with Kubectl: kubernetes/kubectlexec.md

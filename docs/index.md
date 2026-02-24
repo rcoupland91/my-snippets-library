@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# My Snippets Library
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome! This is my personal collection of code snippets for commands that are either handy to have or I always forget and have to quickly search for.
 
-## Commands
+### Quick Access
+* **[Azure CLI](azcli.md)** – Authentication, Subscriptions, and Resource management.
+* **[Git & Version Control](git.md)** – Branching, merging, and all the rest
+* **[OpenSSL](openssl.md)** – Certificate inspection and conversion.
+* **[Terraform](terraform/index.md)** – My full library of IaC snippets.
+* **[Kubernetes](kubernetes/index.md)** – My full library of Kubernetes snippets.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### How to use
+Press **`S`** or click the search bar at the top to search globally. Most snippets have a **Copy** button in the top right corner.
