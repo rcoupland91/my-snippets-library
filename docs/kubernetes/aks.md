@@ -17,7 +17,7 @@ az aks get-credentials --resource-group <RG> --name <AKS>
 
 `kubectl get secret`
 
-`kubectl get-pods -n <namespace> `
+`kubectl get pods -n <namespace> `
 
 `kubectl describe pods`
 
@@ -50,4 +50,4 @@ The output is similar to using an example random password/username: { "password"
 
 Decode the password data:
 
-`echo'UyFCXCpkJHpEc2I9'| base64 --decode`
+`echo 'UyFCXCpkJHpEc2I9' | base64 --decode`
